@@ -38,11 +38,11 @@ Adicione as configurações de ambiente necessárias, incluindo a URL do banco d
 Exemplo de .env:
 
 dotenv
-Copiar código
-DATABASE_URL="sua_url_do_banco_de_dados"
-JWT_SECRET="sua_chave_secreta_jwt"
-NEXTAUTH_URL="http://localhost:8000"
-Execute as migrações do Prisma para configurar o banco de dados:
+- **Copiar código**
+- **DATABASE_URL**="sua_url_do_banco_de_dados"
+- **JWT_SECRET**="sua_chave_secreta_jwt"
+- **NEXTAUTH_URL**="http://localhost:8000"
+- **Execute as migrações do Prisma para configurar o banco de dados**:
 
 bash
 Copiar código
